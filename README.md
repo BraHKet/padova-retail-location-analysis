@@ -198,7 +198,7 @@ da quante persone ci lavorano, un dato che OpenStreetMap e i dati sui residenti 
 
 Per trasformare l'ipotesi in una raccomandazione servirebbero:
 1. un'isocrona calcolata dal sito ipotizzato, per verificare i tempi di accesso;
-2. 2. dati sulla domanda diurna: gli addetti delle imprese per sezione di censimento (ISTAT)
+2. dati sulla domanda diurna: gli addetti delle imprese per sezione di censimento (ISTAT)
    e, soprattutto, dati di telefonia mobile per misurare i flussi reali di persone
    nella zona durante la giornata;
 3. una verifica di immobili disponibili e vincoli urbanistici lungo via San Marco.
