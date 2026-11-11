@@ -7,6 +7,17 @@ c'è spazio per un nuovo punto vendita alimentare della GDO.
 Lungo via San Marco esiste una zona poco servita dai supermercati?
 E se sì, quale formato di punto vendita avrebbe senso per servirla?
 
+## Indice
+- [1. Mappatura dei concorrenti e scelta dell'area di studio](#1-mappatura-dei-concorrenti-e-scelta-dellarea-di-studio)
+- [2. Isocrone di copertura dei concorrenti](#2-isocrone-di-copertura-dei-concorrenti)
+- [3. Attrattori: dove si concentrano le persone durante il giorno](#3-attrattori-dove-si-concentrano-le-persone-durante-il-giorno)
+- [4. Residenti](#4-residenti)
+- [5. Caso studio: il bacino pedonale di Prix](#5-caso-studio-il-bacino-pedonale-di-prix)
+- [6. Ipotesi di formato: un discount rapido per chi lavora nella zona](#6-ipotesi-di-formato-un-discount-rapido-per-chi-lavora-nella-zona)
+- [Conclusione e prossimi passi](#conclusione-e-prossimi-passi)
+- [Limiti](#limiti)
+- [Strumenti](#strumenti)
+
 ## 1. Mappatura dei concorrenti e scelta dell'area di studio
 
 Ho estratto da OpenStreetMap, con Overpass Turbo (overpass-turbo.eu), tutti i supermercati,
