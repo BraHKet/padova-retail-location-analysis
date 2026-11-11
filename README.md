@@ -94,7 +94,26 @@ La mappa quindi probabilmente sottostima chi lavora nella zona industriale.
 Per misurare questa domanda servono i dati sul pendolarismo e studio dei flussi. I dati ISTAT sul pendolarismo aiutano a capire i flussi verso Padova,
 ma misurano gli spostamenti tra Comuni e non permettono di isolare la zona industriale.
 
-## 4. Ipotesi di formato: un discount rapido per chi lavora nella zona
+## 4. Residenti
+
+Per stimare la domanda residenziale ho usato i dati ISTAT sulla popolazione residente per sezione di censimento (censimento 2021), rappresentati con una mappa di calore
+pesata sul numero di residenti.
+
+<p align="center">
+  <img src="06_residenti.png" alt="Mappa di calore dei residenti" width="600">
+</p>
+
+La zona industriale tra la Stanga e Ponte di Brenta è quasi priva di residenti.
+I residenti si concentrano a ovest (Stanga, San Lazzaro, Mortise), attorno a Ponte di Brenta,
+nella fascia tra Ponte di Brenta e Camin e verso Noventa Padovana.
+
+Un punto vendita nel tratto centrale di via San Marco dipenderebbe quindi quasi solo
+da chi lavora nella zona industriale e da chi ci transita.
+Spostandolo verso est, tra Ponte di Brenta e Camin, potrebbe servire sia i lavoratori
+della zona industriale sia i residenti vicini: un'ipotesi da verificare
+con un'isocrona calcolata dal sito ipotizzato.
+
+## 5. Ipotesi di formato: un discount rapido per chi lavora nella zona
 
 Da qui nasce l'ipotesi di un discount di fronte alla zona industriale, su via San Marco,
 pensato per chi ci lavora: all'arrivo, all'uscita o in pausa pranzo.
