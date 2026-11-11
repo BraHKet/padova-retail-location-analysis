@@ -37,7 +37,7 @@ manualmente l'area degli edifici su Google Earth (è l'ingombro dell'edificio,
 non la superficie di vendita).
 
 Il tratto centrale è occupato soprattutto dalla zona industriale e da uffici:
-un'area con pochi residenti, ma con molte persone che ci lavorano ogni giorno.
+un'area con pochi residenti, ma presumibilmente frequentata ogni giorno da chi ci lavora.
 
 <p align="center">
   <img src="01_concorrenti.png" alt="Concorrenti nella zona est di Padova" width="600">
@@ -91,8 +91,11 @@ Nella zona industriale a sud di via San Marco gli attrattori mappati sono pochi 
 Questo però non significa che lì ci siano poche persone durante il giorno:
 OpenStreetMap registra bene negozi e servizi, ma molto meno aziende e capannoni.
 La mappa quindi probabilmente sottostima chi lavora nella zona industriale.
-Per misurare questa domanda servono i dati sul pendolarismo e studio dei flussi. I dati ISTAT sul pendolarismo aiutano a capire i flussi verso Padova,
-ma misurano gli spostamenti tra Comuni e non permettono di isolare la zona industriale.
+
+Per misurare questa domanda servirebbero i dati ISTAT sugli addetti delle imprese
+per sezione di censimento e, se disponibili, dati sui flussi di persone.
+I dati ISTAT sul pendolarismo misurano invece gli spostamenti tra Comuni
+e non permettono di isolare la zona industriale.
 
 ## 4. Residenti
 
@@ -174,14 +177,31 @@ che sono più facili da raggiungere in auto che a piedi o in bici.
 
 ## 6. Ipotesi di formato: un discount rapido per chi lavora nella zona
 
-Da qui nasce l'ipotesi di un discount di fronte alla zona industriale, su via San Marco,
+L'analisi mostra che il vuoto lungo via San Marco riguarda soprattutto la zona industriale:
+pochi residenti, nessun punto vendita entro 5 minuti, e una domanda legata
+a chi ci lavora più che a chi ci abita.
+
+Da qui l'ipotesi di un discount di fronte alla zona industriale, su via San Marco,
 pensato per chi ci lavora: all'arrivo, all'uscita o in pausa pranzo.
 
 Il vantaggio rispetto ai grandi poli vicini sarebbe la rapidità:
-- tempo di accesso stimato di 3 - 4 minuti in auto, contro i 7 - 8 per raggiungere i poli esistenti;
+- tempo di accesso stimato di 3–4 minuti in auto, contro i 7–8 per raggiungere i poli esistenti;
 - prodotti freschi e take away pronto;
 - ampio parcheggio, con entrata e uscita veloci;
-- niente file lunghe, a differenza dei grandi centri.
+- tempi di spesa più brevi rispetto ai grandi centri.
+
+## Conclusione e prossimi passi
+
+La zona industriale tra la Stanga e Ponte di Brenta è l'unica area dello studio
+non servita da nessun punto vendita entro 5 minuti. Il suo potenziale dipende però
+da quante persone ci lavorano, un dato che OpenStreetMap e i dati sui residenti non misurano.
+
+Per trasformare l'ipotesi in una raccomandazione servirebbero:
+1. un'isocrona calcolata dal sito ipotizzato, per verificare i tempi di accesso;
+2. 2. dati sulla domanda diurna: gli addetti delle imprese per sezione di censimento (ISTAT)
+   e, soprattutto, dati di telefonia mobile per misurare i flussi reali di persone
+   nella zona durante la giornata;
+3. una verifica di immobili disponibili e vincoli urbanistici lungo via San Marco.
 
 
 
