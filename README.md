@@ -113,7 +113,66 @@ Spostandolo verso est, tra Ponte di Brenta e Camin, potrebbe servire sia i lavor
 della zona industriale sia i residenti vicini: un'ipotesi da verificare
 con un'isocrona calcolata dal sito ipotizzato.
 
-## 5. Ipotesi di formato: un discount rapido per chi lavora nella zona
+## 5. Caso studio: il bacino pedonale di Prix
+
+Per testare il metodo su un punto vendita esistente, ho incrociato l'isocrona
+a 5 minuti a piedi del Prix di Ponte di Brenta con i dati ISTAT per sezione di censimento.
+
+<p align="center">
+  <img src="07_prix_residenti.png" alt="Residenti per sezione nel bacino di Prix" width="600">
+</p>
+
+Nel bacino a 5 minuti a piedi risiedono circa **1.688 persone**, calcolate in QGIS
+intersecando le sezioni di censimento ISTAT con l'isocrona.
+I residenti sono distribuiti soprattutto ai margini dell'isocrona.
+
+<p align="center">
+  <img src="08_prix_componenti_famiglia.png" alt="Componenti medi per famiglia" width="600">
+</p>
+
+Le famiglie sono piccole, con circa 2 componenti in media.
+
+<p align="center">
+  <img src="09_prix_appartamenti_edificio.png" alt="Appartamenti medi per edificio" width="600">
+</p>
+
+La maggior parte delle sezioni ha edifici piccoli, con 2–5 appartamenti in media.
+Fanno eccezione alcuni condomini più grandi: una sezione a nord-ovest di Prix
+arriva a circa 23 appartamenti per edificio, e una a est a circa 12.
+La zona è quindi residenziale a bassa densità, con pochi edifici più grandi
+che concentrano una parte dei residenti.
+
+**Lettura:** non tutti questi residenti fanno la spesa abitualmente da Prix:
+molti probabilmente raggiungono in auto i supermercati più grandi della zona.
+Il numero di residenti nel bacino è quindi un tetto massimo, non la clientela reale:
+per stimarla servirebbe uno studio più dettagliato, ad esempio sulle abitudini di spesa.
+
+**Confronto tra punti vendita:** incrociando le isocrone con i dati ISTAT,
+Prix è il punto vendita che intercetta più residenti entro 5 minuti,
+sia a piedi sia in bici sia in auto.
+
+**Perché:** Prix si trova al centro di un'ampia zona residenziale delimitata
+da barriere naturali e infrastrutturali (il fiume Brenta, le autostrade, la ferrovia).
+Queste barriere definiscono il suo bacino e lo separano dai grandi poli della zona,
+che sono più facili da raggiungere in auto che a piedi o in bici.
+
+**Cosa ne ricavo:**
+- La mia ipotesi è che, tra i punti vendita della zona, Prix sia quello con il fatturato più alto
+  in rapporto alle sue dimensioni. Intercetta più residenti di tutti, ha un bacino protetto
+  dalle barriere e appartiene a un'insegna con risultati solidi: secondo Mediobanca,
+  Prix Quality è tra i distributori più redditizi della GDO italiana (ROI medio del 16% nel 2019–2024),
+  e secondo Nomisma la sua quota nel mercato discount è passata dallo 0,8% al 2,3% in cinque anni.
+  Senza dati di vendita del singolo punto vendita resta però un'ipotesi, non una misura.
+- Il punto vendita è datato: ha una posizione molto forte ma un format poco moderno,
+  un possibile punto debole se un concorrente aprisse un negozio più nuovo nelle vicinanze.
+
+<p align="center">
+  <img src="10_prix_negozio.jpg" alt="Il punto vendita Prix di Ponte di Brenta" width="600">
+</p>
+
+- Il bacino di Prix non raggiunge la zona industriale, che resta scoperta.
+
+## 6. Ipotesi di formato: un discount rapido per chi lavora nella zona
 
 Da qui nasce l'ipotesi di un discount di fronte alla zona industriale, su via San Marco,
 pensato per chi ci lavora: all'arrivo, all'uscita o in pausa pranzo.
@@ -133,6 +192,9 @@ Il vantaggio rispetto ai grandi poli vicini sarebbe la rapidità:
 - Le isocrone considerano i tempi di percorrenza teorici, non traffico e parcheggi.
 - I tempi di accesso del nuovo punto vendita sono stime, da verificare con un'isocrona dal sito ipotizzato.
 - Non sono considerati affitti, disponibilità di immobili e vincoli urbanistici.
+- Manca un'analisi dei flussi di persone (ad esempio da dati di telefonia mobile):
+  questi dati sono a pagamento, quindi non sono stati considerati.
+  La domanda diurna della zona industriale resta quindi stimata solo in modo indiretto.
 
 ## Strumenti
 QGIS, OpenRouteService (isocrone), Overpass Turbo (dati OpenStreetMap), Google Earth, dati ISTAT
