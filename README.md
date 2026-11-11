@@ -167,7 +167,7 @@ che sono più facili da raggiungere in auto che a piedi o in bici.
   un possibile punto debole se un concorrente aprisse un negozio più nuovo nelle vicinanze.
 
 <p align="center">
-  <img src="10_prix_negozio.jpg" alt="Il punto vendita Prix di Ponte di Brenta" width="600">
+  <img src="10_prix_negozio.png" alt="Il punto vendita Prix di Ponte di Brenta" width="600">
 </p>
 
 - Il bacino di Prix non raggiunge la zona industriale, che resta scoperta.
