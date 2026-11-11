@@ -74,7 +74,27 @@ a 5 minuti: anche in auto, è il vuoto più evidente dell'area.
 **Lettura:** la zona industriale non è servita da nessun punto vendita entro 5 minuti,
 né a piedi né in auto. Chi ci lavora oggi deve raggiungere i grandi poli di Busa o della Stanga.
 
-## 3. Ipotesi di formato: un discount rapido per chi lavora nella zona
+## 3. Attrattori: dove si concentrano le persone durante il giorno
+
+Per capire dove si concentra la domanda durante il giorno, ho mappato gli attrattori
+della zona: uffici, aziende, scuole, palestre, servizi, estratti da OpenStreetMap
+con Overpass Turbo, e ne ho calcolato la densità con una mappa di calore in QGIS.
+
+<p align="center">
+  <img src="05_attrattori.png" alt="Mappa di calore degli attrattori" width="600">
+</p>
+
+La concentrazione più alta di attrattori è alla Stanga, già servita dal Conad,
+seguita da Ponte di Brenta e Noventa Padovana.
+Nella zona industriale a sud di via San Marco gli attrattori mappati sono pochi e sparsi.
+
+Questo però non significa che lì ci siano poche persone durante il giorno:
+OpenStreetMap registra bene negozi e servizi, ma molto meno aziende e capannoni.
+La mappa quindi probabilmente sottostima chi lavora nella zona industriale.
+Per misurare questa domanda servono i dati sul pendolarismo e studio dei flussi. I dati ISTAT sul pendolarismo aiutano a capire i flussi verso Padova,
+ma misurano gli spostamenti tra Comuni e non permettono di isolare la zona industriale.
+
+## 4. Ipotesi di formato: un discount rapido per chi lavora nella zona
 
 Da qui nasce l'ipotesi di un discount di fronte alla zona industriale, su via San Marco,
 pensato per chi ci lavora: all'arrivo, all'uscita o in pausa pranzo.
