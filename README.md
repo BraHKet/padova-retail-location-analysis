@@ -39,7 +39,9 @@ non la superficie di vendita).
 Il tratto centrale è occupato soprattutto dalla zona industriale e da uffici:
 un'area con pochi residenti, ma con molte persone che ci lavorano ogni giorno.
 
-![Concorrenti nella zona est di Padova](images/01_concorrenti.png)
+<p align="center">
+  <img src="01_concorrenti.png" alt="Concorrenti nella zona est di Padova" width="600">
+</p>
 
 ## 2. Isocrone di copertura dei concorrenti
 
@@ -50,18 +52,24 @@ e le ho importate in QGIS. Le fasce interne indicano intervalli di 1 minuto, da 
 **A piedi:** ogni punto vendita copre solo l'area immediatamente vicina.
 Il tratto di via San Marco tra Conad (Stanga) e Prix (Ponte di Brenta) resta scoperto.
 
-![Isocrone a piedi](images/02_isocrone_piedi.png)
+<p align="center">
+  <img src="02_isocrone_piedi.png" alt="Isocrone a piedi" width="600">
+</p>
 
 **In bici:** l'area di Prix si estende verso ovest fino allo svincolo di Padova Est,
 ma la fascia verso San Lazzaro e la zona industriale resta in gran parte scoperta.
 
-![Isocrone in bici](images/03_isocrone_bici.png)
+<p align="center">
+  <img src="03_isocrone_bici.png" alt="Isocrone in bici" width="600">
+</p>
 
 **In auto:** le aree dei punti vendita si sovrappongono molto attorno al polo di Busa,
 ma la zona industriale a sud di via San Marco resta in gran parte fuori dalle isocrone
 a 5 minuti: anche in auto, è il vuoto più evidente dell'area.
 
-![Isocrone in auto](images/04_isocrone_auto.png)
+<p align="center">
+  <img src="04_isocrone_auto.png" alt="Isocrone in auto" width="600">
+</p>
 
 **Lettura:** la zona industriale non è servita da nessun punto vendita entro 5 minuti,
 né a piedi né in auto. Chi ci lavora oggi deve raggiungere i grandi poli di Busa o della Stanga.
